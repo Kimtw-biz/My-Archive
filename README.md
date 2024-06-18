@@ -101,8 +101,8 @@ Taewook Kim의 플러터 기반 포트폴리오 웹앱 프로젝트
 <br/>프로젝트 전역에서 사용하는 Componenet 및 Composition 관련 폴더
 
 ## 4. External Links
-- [Hosting 1: My Archive ](www.google.com)
-- [Hosting 2: My Archive](www.google.com)
-- [Figma: My Archive Draft](www.google.com)
-- [Package: Flutter My Library](https://www.google.com)
-- [Document: Portfolio](www.google.com)
+- [Hosting 1: My Archive ](https://myarchive-75f55.web.app/)
+- [Hosting 2: My Archive](https://myarchive-75f55.firebaseapp.com/)
+- [Figma: My Archive Draft](https://www.figma.com/design/ubjj6qqQX1OtNfcegSFXal/Draft%2FPublic%2FMyArchive?node-id=0-1&t=v5gCcSvY0tHMHgY5-1)
+- [Package: Flutter My Library](https://github.com/Kimtw-biz/My-Library)
+- [Document: Portfolio](https://firebasestorage.googleapis.com/v0/b/myarchive-75f55.appspot.com/o/cvs%2F20240617_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%90%E1%85%A2%E1%84%8B%E1%85%AE%E1%86%A8_%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF_%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9.pdf?alt=media&token=2fd37cae-1c82-4a89-82dd-2ab9afddf69b)
