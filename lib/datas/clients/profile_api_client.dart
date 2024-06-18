@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_my_archive/datas/models/profile.dart';
+
+import '../models/profile.dart';
 
 class ProfileAPIClient {
   const ProfileAPIClient();

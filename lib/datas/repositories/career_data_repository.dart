@@ -1,5 +1,5 @@
-import 'package:flutter_my_archive/datas/clients/career_api_client.dart';
-import 'package:flutter_my_archive/datas/models/career.dart';
+import '../clients/career_api_client.dart';
+import '../models/career.dart';
 
 class CareerDataRepository {
   const CareerDataRepository({

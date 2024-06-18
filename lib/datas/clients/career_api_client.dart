@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'package:flutter_my_archive/datas/models/career.dart';
+import '../models/career.dart';
 
 class CareerApiClient {
   const CareerApiClient();

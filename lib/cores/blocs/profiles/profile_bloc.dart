@@ -1,7 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_my_archive/datas/models/profile.dart';
-import 'package:flutter_my_archive/datas/repositories/profile_data_repository.dart';
+
+import '../../../datas/models/profile.dart';
+import '../../../datas/repositories/profile_data_repository.dart';
 
 part 'profile_event.dart';
 part 'profile_state.dart';

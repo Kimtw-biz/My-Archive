@@ -1,5 +1,5 @@
-import 'package:flutter_my_archive/datas/clients/profile_api_client.dart';
-import 'package:flutter_my_archive/datas/models/profile.dart';
+import '../clients/profile_api_client.dart';
+import '../models/profile.dart';
 
 class ProfileDataRepository {
   const ProfileDataRepository({
