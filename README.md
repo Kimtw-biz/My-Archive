@@ -25,7 +25,8 @@ Taewook Kim의 플러터 기반 포트폴리오 웹앱 프로젝트
 본 프로젝트에서는 상태관리를 위해 BLoC Library를 사용하였습니다.
 
 * Layout Size Bloc
-    - 브라우저 크기에 따른 Responsive View를 위해 현재 브라우저 사이즈를 제공하기 위한 컴포넌트.<br/><br/>*내부 컨텐츠 뷰의 최대 사이즈는 가독성을 위해 1440픽셀로 제한 되어 있습니다.
+    - 브라우저 크기에 따른 Responsive View를 위해 현재 브라우저 사이즈를 제공하기 위한 컴포넌트.
+    <br/><br/>*내부 컨텐츠 뷰의 최대 사이즈는 가독성을 위해 1440픽셀로 제한 되어 있습니다.
 
 * CareersBloc
     - Database에 등록되어 있는 최신의 경력 및 프로젝트 정보를 Data repository에서 가져와 제공
