@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_my_library/stable/widgets/auto_layout.dart';
 
+import '../../../cores/tokens/app_colors.dart';
 import '../../../cores/tokens/app_sizes.dart';
 import '../../../cores/values/app_icon_path.dart';
 import '../blocs/contacts_page_cubit.dart';
@@ -16,11 +17,13 @@ class ContactsExternalLinkButtons extends StatelessWidget {
 
     return AutoLayout.vertical(
       mainAxisSize: MainAxisSize.min,
-      // mainAxisGap: AppSizes.verticalGapSmall,
+      mainAxisGap: AppSizes.verticalGapSmall,
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        const Divider(),
+        const Divider(
+          color: AppColors.white,
+        ),
         AutoLayout.horizontal(
           mainAxisSize: MainAxisSize.min,
           mainAxisGap: AppSizes.horizontalGapMedium,
@@ -41,7 +44,9 @@ class ContactsExternalLinkButtons extends StatelessWidget {
             ),
           ],
         ),
-        const Divider(),
+        const Divider(
+          color: AppColors.white,
+        ),
       ],
     );
   }

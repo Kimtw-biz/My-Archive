@@ -19,11 +19,13 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="" content="My Archive">
+  <meta name="color-scheme" content="light only"/>
+	<meta name="supported-color-schemes" content="light"/>
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_my_archive">
+  <meta name="apple-mobile-web-app-title" content="My Archive">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -43,7 +45,9 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!-- <link rel="icon" type="image/png" href="favicon.png"/> -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <title>My Archive</title>
   <link rel="manifest" href="manifest.json">
@@ -56,17 +60,23 @@
     justify-content: center;
     align-items: center;
   }
-.loader {
-  width: 50px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  padding: 3px;
-  background: 
-    radial-gradient(farthest-side,#ffa516 95%,#0000) 50% 0/12px 12px no-repeat,
-    radial-gradient(farthest-side,#0000 calc(100% - 5px),#ffa516 calc(100% - 4px)) content-box;
-  animation: l6 2s infinite ;
-}
-@keyframes l6 {to{transform: rotate(1turn)}}
+  .loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #514b82;
+    mask: ();
+    -webkit-mask: radial-gradient(
+      circle closest-side at 50% 40%,
+      #0000 94%,
+      #000
+      );
+    transform-origin: 50% 40%;
+    animation: l25 1s infinite linear;
+  }
+  @keyframes l25 {
+    100% {transform: rotate(1turn)}
+  }
 </style>
 <body style="overflow: hidden">
   <script src="flutter_bootstrap.js" async></script>
@@ -75,13 +85,10 @@
   </div>
 </body>
 <script>
-  window.onload = function () {
-        setTimeout(function () {
-          var loadingIndicator = document.getElementById("loading_indicator");
-          if (loadingIndicator) {
-            loadingIndicator.remove();
-          }
-        }, 10000);
-};
+  document.addEventListener('dart-app-ready', function (e) {
+    var loader = document.getElementById("loading_indicator");
+    
+    loader.parentNode.removeChild(loader);
+  });
 </script>
 </html>
