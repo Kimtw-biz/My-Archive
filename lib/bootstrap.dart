@@ -68,7 +68,10 @@ class _BootstrapState extends State<Bootstrap> {
       ],
       child: MaterialApp.router(
         theme: AppThemes.themeData,
-        themeMode: ThemeMode.light,
+        darkTheme: AppThemes.themeData,
+        highContrastTheme: AppThemes.themeData,
+        highContrastDarkTheme: AppThemes.themeData,
+        themeMode: AppThemes.themeMode,
         routerConfig: RouteConfigs.configs,
         localizationsDelegates: const [
           AppLocalizations.delegate,

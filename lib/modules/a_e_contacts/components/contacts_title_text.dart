@@ -10,9 +10,9 @@ class ContactsTitleText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       AppLocalizations.of(context)["label_contacts"],
-      style: Theme.of(context).textTheme.displayLarge!.copyWith(
+      style: Theme.of(context).textTheme.displayMedium!.copyWith(
+            fontWeight: FontWeight.normal,
             color: AppColors.white,
-            fontFamily: "NanumSquare",
           ),
     );
   }
