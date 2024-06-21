@@ -27,7 +27,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-me">About Me</a></li>
@@ -122,9 +122,9 @@
 사이트에 관련된 의견은 언제든 감사히 받겠습니다.
 
 1. 프로젝트 Fork
-2. Request Branch 생성 (`git checkout -b request/feature/AmazingFeature`)
-3. 변경사항 Commit (`git commit -m 'Req Add 요청하는 기능 내용`)
-4. 변경사항 Push (`git push origin request/feature/AmazingFeature`)
+2. Request Branch 생성 (`git checkout -b request/feature/{TITLE}`)
+3. 변경사항 Commit (`git commit -m 'Req Add {DESCRIPTION}`)
+4. 변경사항 Push (`git push origin request/feature/{TITLE}`)
 5. 새 Pull Request 생성
 
 <p align="right">(<a href="#readme-top">처음으로</a>)</p>
@@ -134,7 +134,7 @@
 <!-- LICENSE -->
 ## License
 
-본 프로젝트는 MIT 라이센스 아래 배포되었음을 알려드립니다. 자세한 사항은 'LICENSE.txt'를 통해 확인할 수 있습니다.
+본 프로젝트는 MIT 라이센스 아래 배포되었음을 알려드립니다. 자세한 사항은 [LICENSE](https://github.com/Kimtw-biz/My-Archive/blob/main/LICENSE) 를 통해 확인할 수 있습니다.
 
 <p align="right">(<a href="#readme-top">처음으로</a>)</p>
 
