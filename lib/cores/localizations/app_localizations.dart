@@ -43,9 +43,6 @@ class AppLocalizations {
   String getLanguageLanguagePath(String languageCode) => "assets/langs/$languageCode.json";
 
   Future<AppLocalizations> _load(Locale locale) async {
-    debugPrint("languageCode: ${locale.languageCode}");
-    debugPrint("countryCode:: ${locale.countryCode}");
-
     return await rootBundle.loadString(getLanguageLanguagePath(locale.languageCode)).then((data) {
       try {
         _sentences = jsonDecode(data);
